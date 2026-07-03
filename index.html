@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css"
+    />
+    <title>Profil Personnel</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="profile">
+        <img
+          src="./image/001.jpg"
+          alt="Prosper entrain de faire un speech devant une foule des personnes"
+          width="500"
+          aria-label="Prosper entrain de faire un speech devant une foule des personnes"
+        />
+
+        <div class="description">
+          <h1>Prosper KWON GEE</h1>
+          <p>
+            Etudiant en Conception des Systèmes d'Information et développeur
+            Fullstack en formation chez <span>Akieni Academy</span> . Passionné
+            par la <span>conception de solutions numériques</span> , je
+            m'intéresse à tout le cycle de vie d'un produit : comprendre un
+            <span
+              >besoin, concevoir une solution, la développer et la
+              déployer</span
+            >
+            . Mon objectif est de devenir
+            <span>Architecte de Solutions Cloud</span> afin de créer des
+            produits utiles, évolutifs et centrés sur les utilisateurs.
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- Contenu principale -->
+    <main class="container">
+      <section class="competences">
+        <h2>Compétences</h2>
+
+        <div class="competences__groupe">
+          <div class="competences__items">
+            <h3>Développement web</h3>
+
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>Responsive web design</li>
+              <li>FlexBox</li>
+              <li>CSS Grid</li>
+              <li>Git & Github</li>
+            </ul>
+          </div>
+
+          <div class="competences__items">
+            <h3>Conception et Analyse</h3>
+
+            <ul>
+              <li>Analyse des besoins</li>
+              <li>Conception des Systèmes d'information</li>
+              <li>Modélisation fonctionnelle</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="formation">
+        <h3>Formation</h3>
+        <!-- dl est une liste de description -->
+        <dl>
+          <dt>Akieni Academy</dt>
+          <dd>Développement Fullstack (en cours)</dd>
+
+          <dt>Université</dt>
+          <dd>
+            Licence en Conception des Systèmes d'Information (en cours
+            d'obtention)
+          </dd>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <div class="reseau__sociaux">
+        <ul>
+          <li>
+            <a href="#" aria-label="LinkedIn" target="_blank"
+              ><i class="ri-linkedin-fill"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Instagram" target="_blank"
+              ><i class="ri-instagram-fill"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Github" target="_blank"
+              ><i class="ri-github-fill"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h3>Contacter moi</h3>
+
+        <form>
+          <label for="name">Nom:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Ecrivez votre nom"
+            required
+          />
+
+          <label for="second__name">Prenom:</label>
+          <input
+            type="text"
+            name="second__name"
+            id="second__name"
+            placeholder="Ecrivez votre prenom"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
