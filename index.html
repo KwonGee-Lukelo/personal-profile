@@ -7,6 +7,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css"
     />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Profil Personnel</title>
   </head>
 
@@ -14,28 +15,27 @@
     <header>
       <div class="profile">
         <img
-          src="./image/001.jpg"
-          alt="Prosper entrain de faire un speech devant une foule des personnes"
+          src="./image/profil.jpg"
+          alt="Photo de profil de Prosper Kwon Gee"
           width="500"
-          aria-label="Prosper entrain de faire un speech devant une foule des personnes"
+          aria-label="Photo de profil de Prosper Kwon Gee"
         />
+      </div>
 
-        <div class="description">
-          <h1>Prosper KWON GEE</h1>
-          <p>
-            Etudiant en Conception des Systèmes d'Information et développeur
-            Fullstack en formation chez <span>Akieni Academy</span> . Passionné
-            par la <span>conception de solutions numériques</span> , je
-            m'intéresse à tout le cycle de vie d'un produit : comprendre un
-            <span
-              >besoin, concevoir une solution, la développer et la
-              déployer</span
-            >
-            . Mon objectif est de devenir
-            <span>Architecte de Solutions Cloud</span> afin de créer des
-            produits utiles, évolutifs et centrés sur les utilisateurs.
-          </p>
-        </div>
+      <div class="description">
+        <h1>Prosper Kwon Gee</h1>
+        <p>
+          Etudiant en Conception des Systèmes d'Information et développeur
+          Fullstack en formation chez <span>Akieni Academy</span> . Passionné
+          par la <span>conception de solutions numériques</span> , je
+          m'intéresse à tout le cycle de vie d'un produit : comprendre un
+          <span
+            >besoin, concevoir une solution, la développer et la déployer</span
+          >
+          . Mon objectif est de devenir
+          <span>Architecte de Solutions Cloud</span> afin de créer des produits
+          utiles, évolutifs et centrés sur les utilisateurs.
+        </p>
       </div>
     </header>
     <!-- Contenu principale -->
@@ -48,14 +48,19 @@
             <h3>Développement web</h3>
 
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Bootstrap</li>
-              <li>Responsive web design</li>
-              <li>FlexBox</li>
-              <li>CSS Grid</li>
-              <li>Git & Github</li>
+              <li><i class="ri-html5-fill" aria-label="hidden"></i>HTML</li>
+              <li><i class="ri-css3-fill" aria-label="hidden"></i>CSS</li>
+              <li>
+                <i class="ri-javascript-fill" aria-label="hidden"></i>JavaScript
+              </li>
+              <li>
+                <i class="ri-bootstrap-fill" aria-label="hidden"></i>Bootstrap
+              </li>
+              <li><i class="ri-grid-fill" aria-label="hidden"></i>CSS Grid</li>
+              <li>
+                <i class="ri-git-branch-fill" aria-label="hidden"></i>Git &
+                Github
+              </li>
             </ul>
           </div>
 
@@ -63,9 +68,18 @@
             <h3>Conception et Analyse</h3>
 
             <ul>
-              <li>Analyse des besoins</li>
-              <li>Conception des Systèmes d'information</li>
-              <li>Modélisation fonctionnelle</li>
+              <li>
+                <i class="ri-search-line" aria-label="hidden"></i>Analyse des
+                besoins
+              </li>
+              <li>
+                <i class="ri-lightbulb-line" aria-label="hidden"></i>Conception
+                des Systèmes d'information
+              </li>
+              <li>
+                <i class="ri-draft-line" aria-label="hidden"></i>Modélisation
+                fonctionnelle
+              </li>
             </ul>
           </div>
         </div>
@@ -92,19 +106,19 @@
         <ul>
           <li>
             <a href="#" aria-label="LinkedIn" target="_blank"
-              ><i class="ri-linkedin-fill"></i
+              ><i class="ri-linkedin-fill" aria-label="LinkedIn"></i
             ></a>
           </li>
 
           <li>
             <a href="#" aria-label="Instagram" target="_blank"
-              ><i class="ri-instagram-fill"></i
+              ><i class="ri-instagram-fill" aria-label="Instagram"></i
             ></a>
           </li>
 
           <li>
             <a href="#" aria-label="Github" target="_blank"
-              ><i class="ri-github-fill"></i
+              ><i class="ri-github-fill" aria-label="Github"></i
             ></a>
           </li>
         </ul>
@@ -114,7 +128,7 @@
         <h3>Contacter moi</h3>
 
         <form>
-          <label for="name">Nom:</label>
+          <label for="name">Nom</label>
           <input
             type="text"
             name="name"
@@ -123,7 +137,7 @@
             required
           />
 
-          <label for="second__name">Prenom:</label>
+          <label for="second__name">Prenom</label>
           <input
             type="text"
             name="second__name"
@@ -132,8 +146,13 @@
             required
           />
 
-          <label for="message">Message:</label>
-          <textarea name="message" id="message" required></textarea>
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Ecrivez votre message"
+            required
+          ></textarea>
 
           <button type="submit">Envoyer</button>
         </form>
